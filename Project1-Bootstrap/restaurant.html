@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruchi's Kitchen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        .header img {
+            float:inline-start;
+            width: 50px;
+            height: 50px;
+          }
+          
+          .header h1 {
+            position:relative;
+            top: 18px;
+            left: 10px;
+            text-align:center ;
+            color:goldenrod;
+            font-style: italic;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            background-color:black;
+            padding: 30px;
+          }
+    
+          .carousel.slide{
+            width: 500px;
+            align-self:center;
+          }
+          p{
+            color:papayawhip;
+            font-size: medium;
+            font-weight: bold;
+            background-color: rgb(114, 57, 57);
+
+          }
+          .card{
+            height: 300px; 
+            width: 250px;
+          }
+          .text-bg-warning{
+            font-size: larger;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+          }
+        .footer{
+            position:relative;
+            background-color:blanchedalmond;
+            padding: 30px;
+          }
+    
+        
+          
+
+    </style>
+</head>
+<body>
+    <div class="header" >
+       
+       <h1><img src="restaurant.jpg" alt="logo" class="rounded-circle"/>RUCHI'S KITCHEN</h1>
+      
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">About us</a>
+            <a class="nav-link" href="contact.html">Contact Details</a>
+            <a class="nav-link" href="#">Help</a>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="ambience1.jpg" class="d-block w-100" alt="ambience">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Engaging Ambience</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="multicuisine.jpg" class="d-block w-100" alt="multicuisine">
+          <div class="carousel-caption d-none d-md-block">
+            
+            <p>multicuisine</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="onlinedelivery.jpg" class="d-block w-100" alt="Online Delivery">
+          <div class="carousel-caption d-none d-md-block">
+            
+            <p>Online Delivery available</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <div class="text-bg-warning p-3">Today's Special</div>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="biryani.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Special Dum Biryani</h5>
+                      <span class="card-text">Chicken Biryani is a savory chicken
+                        and rice dish that includes layers of chicken, rice, and aromatics that
+                        are steamed together.</span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="Chicken-Kebab.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Kebab</h5>
+                      <span class="card-text">Chicken Kebab, are juicy, flavorful
+                        ground meat croquettes.Ground meat is seasoned with herbs, warm spices,
+                        and aromatics, then skewered and grilled to perfection.</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="paneer1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Paneer Butter Masala</h5>
+                          <span class="card-text">Paneer Butter Masala,known for its
+                            mildly sweet and spicy taste with the goodness of fresh cream and butter
+                            topping with moist paneer..</span>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-bg-warning p-3">Top Trending (20% OFF)</div>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="noodles.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Veg Noodles</h5>
+                      <span class="card-text">Noodle, a cooked egg-and-flour
+                        paste prominent in European and Asian cuisine, generally distinguished
+                        from pasta by its elongated ribbonlike form.</span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="friedrice.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Shezwan Fried Rice</h5>
+                      <span class="card-text">Schezwan fried rice is a zesty
+                        vegetarian and vegan stir-fried rice variant that features a bold and
+                        spicy homemade schezwan sauce loaded with healthy mix vegetables,
+                        aromatics and herbs.</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="brownie.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sizzling Brownie</h5>
+                          <span class="card-text">hocolate brownie with a scoop of
+                            ice-cream on top served with a generous pouring of melted chocolate on the
+                            ice-cream. It is served on hot sizzler plates to be eaten directly in its
+                            sizzling hot form.</span>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+          © 2022 Ruchi's Kitchen.All Rights Reserved.
+      </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        
+      </body>
+</html>
