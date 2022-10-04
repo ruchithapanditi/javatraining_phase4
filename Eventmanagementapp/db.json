@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Kavya",
+      "lastName": "Sri",
+      "email": "kavyasri@gmail.com",
+      "mobile": "9123124054",
+      "salary": "73540"
+    },
+    {
+      "id": 3,
+      "firstName": "Hima",
+      "lastName": "Sri",
+      "email": "himasri@gmail.com",
+      "mobile": "6382910465",
+      "salary": "63829"
+    },
+    {
+      "id": 4,
+      "firstName": "Abhinaya",
+      "lastName": "Priya",
+      "email": "abhi@gmail.com",
+      "mobile": "7243901467",
+      "salary": "72493"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
